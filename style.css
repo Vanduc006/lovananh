@@ -7,11 +7,24 @@
   padding:0;
   box-sizing:border-box;
   font-family:'Nunito', sans-serif;
+}
+.contact {
+  margin-top: 10px;
+}
+.copy {
+  background-color: black;
+  align-items: center;
+  border-radius: 5px;
+  color: #fff;
+  justify-content: center;
   
+  
+  cursor: pointer;
+
 }
 *::selection {
     background-color: black;
-    color: white;
+    color: #fff;
     border-radius: 10px;
     backdrop-filter: blur( 1.9px );
     
@@ -40,8 +53,9 @@
   display:flex;
   justify-content:center;
   align-items:center;
-  background: url(https://cdn.glitch.global/3560f113-003e-4772-81bd-1bb8863ee35e/fde06de5-0bc4-4f34-979d-56337bc74c18.image.png?v=1667052686543);
+  background: url(nui1.jfif);
   background-size:cover;
+  padding: 8px 16px;
 }
 .container2{
     width:100%;
@@ -49,7 +63,7 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    background: url(https://cdn.glitch.global/3560f113-003e-4772-81bd-1bb8863ee35e/fde06de5-0bc4-4f34-979d-56337bc74c18.image.png?v=1667052686543);
+    background: url(nui3.jpg);
     background-size:cover;
     font-family: sans-serif;
   }
@@ -58,14 +72,12 @@
   margin:10px;
   width:300px;
   height:400px;
-  background: rgba(216, 112, 147,0.05);
+  background: rgba(257, 257, 257, 0.4);
   backdrop-filter: blur( 1.9px );
   border-radius: 10px;
   display:flex;
   flex-direction:column;
   justify-content:center;
-  padding-top: 100px;
-  padding-bottom: 80px;
   
 }
 
@@ -84,7 +96,7 @@ figure .im{
   object-fit: cover;
   object-position:center;
   border: 5px solid #42a5f5;
-
+  margin-top: 20px
 }
 
 figure::before{
@@ -123,7 +135,6 @@ header h1{
 header p{
   font-size:16px;
   padding:5px 10px;
- 
   
 }
 
@@ -141,9 +152,9 @@ header p{
 }
 
 .card div{
-  width:30px;
+ width:30px;
   height:30px;
-  
+  background: #fff;
   border-radius:50px;
   display:flex;
   justify-content:center;
